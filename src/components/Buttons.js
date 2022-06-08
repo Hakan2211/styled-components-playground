@@ -14,8 +14,13 @@ export const DefaultButton = styled.button`
 `;
 
 export const HipsterButton = styled(DefaultButton)`
-  width: 15rem;
+  width: 150px;
   background: transparent;
   color: #347698;
   border: 1px solid #347698;
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
 `;
